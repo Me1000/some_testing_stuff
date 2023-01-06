@@ -1,3 +1,5 @@
+import { foo2 } from "./dep2.mjs";
+
 export function foo() {
-    console.log("Printing foo!");
+    foo2();
 }
